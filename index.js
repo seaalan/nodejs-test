@@ -8,5 +8,7 @@ handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 handle["/global"] = requestHandlers.global;
+handle["/readFile"] = requestHandlers.readFile;
+handle["/writeFile"] = requestHandlers.writeFile;
 
 server.start(router.route, handle);
